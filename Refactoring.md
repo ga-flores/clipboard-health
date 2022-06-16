@@ -11,3 +11,5 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 ## Your Explanation Here
 
 - Assign a default value to `candidate` at the start of the function instead of checking if empty
+- Create `createHash` wrapper around crypto to generate the key
+- Stringify `candidate` only if we are using the partitionKey from the event
